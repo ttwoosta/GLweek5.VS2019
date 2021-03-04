@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="GL\Buffer.cpp">
+      <Filter>GL</Filter>
+    </ClCompile>
+    <ClCompile Include="GL\Shader.cpp">
+      <Filter>GL</Filter>
+    </ClCompile>
+    <ClCompile Include="GL\Vertex.cpp">
+      <Filter>GL</Filter>
+    </ClCompile>
+    <ClCompile Include="shader_source.cpp">
+      <Filter>GL</Filter>
+    </ClCompile>
+    <ClCompile Include="Display.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="SDL2\SDL.cpp">
+      <Filter>SDL</Filter>
+    </ClCompile>
+    <ClCompile Include="GL\OpenGL.cpp">
+      <Filter>GL</Filter>
+    </ClCompile>
+    <ClCompile Include="GL\Camera.cpp">
+      <Filter>GL</Filter>
+    </ClCompile>
+    <ClCompile Include="format\OBJ.cpp">
+      <Filter>formats</Filter>
+    </ClCompile>
+    <ClCompile Include="GL\Mesh.cpp">
+      <Filter>GL</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="plain_fragment.glsl" />
+    <CopyFileToFolders Include="plain_vertex.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="GL">
+      <UniqueIdentifier>{3d32b248-6e80-4572-8101-e2c1489101bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDL">
+      <UniqueIdentifier>{a6229533-06e6-4dc8-9f93-738fa2a44174}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="formats">
+      <UniqueIdentifier>{7a8c7cb1-312e-42cd-a778-6de9ee062de8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GL\Buffer.h">
+      <Filter>GL</Filter>
+    </ClInclude>
+    <ClInclude Include="GL\OpenGL.h">
+      <Filter>GL</Filter>
+    </ClInclude>
+    <ClInclude Include="GL\Vertex.h">
+      <Filter>GL</Filter>
+    </ClInclude>
+    <ClInclude Include="GL\Shader.h">
+      <Filter>GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Display.h" />
+    <ClInclude Include="SDL2\SDL.h">
+      <Filter>SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="GL\Camera.h">
+      <Filter>GL</Filter>
+    </ClInclude>
+    <ClInclude Include="format\OBJ.h">
+      <Filter>formats</Filter>
+    </ClInclude>
+    <ClInclude Include="GL\Mesh.h">
+      <Filter>GL</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="cube.obj" />
+    <Object Include="sphere.obj" />
+    <Object Include="icosa.obj" />
+    <Object Include="octo.obj" />
+  </ItemGroup>
+</Project>
